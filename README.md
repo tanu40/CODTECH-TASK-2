@@ -31,11 +31,11 @@ The website is fully responsive, providing an optimal viewing experience across 
 
 Technologies Used:
 
--HTML: Structures the content and layout of the web pages.
--CSS: Handles the styling and layout of the website, ensuring a visually appealing design that is consistent across devices.
--PHP: Manages server-side logic, including handling form submissions, user authentication, and interaction with the MySQL database.
--MySQL: Stores user data and posts, providing a robust database solution for managing and retrieving information.
--JavaScript: Adds interactivity to the website, such as form validation, dynamic content updates, and enhancing user experience.
+-HTML: Structures the content and layout of the web pages.<br>
+-CSS: Handles the styling and layout of the website, ensuring a visually appealing design that is consistent across devices.<br>
+-PHP: Manages server-side logic, including handling form submissions, user authentication, and interaction with the MySQL database.<br>
+-MySQL: Stores user data and posts, providing a robust database solution for managing and retrieving information.<br>
+-JavaScript: Adds interactivity to the website, such as form validation, dynamic content updates, and enhancing user experience.<br>
 
 
 Installation:
