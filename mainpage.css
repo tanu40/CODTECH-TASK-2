@@ -1,0 +1,260 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #2d91e4;
+    color: #fff;
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2vw;
+
+    font-family: cursive;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    margin-top: 1vw;
+    margin-left: 25vw;
+    font-size: 1.2vw;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 20px;
+    font-family: cursive;
+}
+
+header .nav-links li img{
+    float: left;
+    height: 2vw;
+    width: 2vw;
+}
+
+header .nav-links li a {
+    color: #fff;
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header .nav-links li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    margin: 4vw;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 20%;
+    background-color: #7ac4ee;
+    padding: 1vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    font-family: cursive;
+    margin-bottom: 4vw;
+    margin-top: 4.5vw;
+    margin-left: 3vw;
+}
+
+.sidebar ul li img{
+   
+    float: left;
+    height: 4vw;
+    width: 4vw;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-family: cursive;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+/* Main content styles */
+.content {
+    width: 80%;
+    padding: 10vw;
+    background-color: #7ac4ee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+/* Post box styles */
+.post-box {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.post-box textarea {
+    width: 80%;
+    height: 4vw;
+    font-size: 1.5vw;
+    padding: 7px;
+    font-family: cursive;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    resize: none;
+}
+
+.post-box button {
+    width: 20%;
+    padding: 10px;
+    background-color: #ff67a6;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.4vw;
+    font-family: cursive;
+    transition: background-color 0.3s;
+}
+
+.post-box button:hover {
+    background-color: #fd1676;
+    animation: backwards;
+}
+
+/* Feed and post styles */
+#feed {
+    margin-top: 5vw;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    height:6vw;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post p {
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+.post small {
+    color: #777;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2vw;
+    border-radius: 8px;
+}
+
+/* .notification {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification:last-child {
+    border-bottom: none;
+}
+
+.notification p {
+    margin: 0;
+}
+
+.notification .time {
+    font-size: 12px;
+    color: #777;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-content p{
+    font-family: cursive;
+    font-size: 1vw;
+    display: block;
+    padding: 12px 16px;
+    color: rgb(8, 62, 238);
+    border-bottom: 1px solid #ddd;
+}
+
+
+.dropdown-content a {
+    font-size: smaller;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+
+    /* color: rgb(59, 55, 55);
+    padding: 12px 16px;
+    display: block;
+    border-bottom: 1px solid #ddd; */
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+
+
+.show {
+    display: block;
+}
+
+

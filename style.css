@@ -1,0 +1,149 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #b4dbf1;
+}
+
+header {
+    background-color: #333;
+    padding: 6px 0;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    font-family: fantasy;
+    display: flex;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display:flex;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 10px;
+}
+
+/* ul li:nth-child(2) p{
+   display: none;
+}
+
+ul li:nth-child(2):hover{
+    display:flexbox;
+}
+
+ul li:nth-child(2) p:hover{
+    display: inline-flexbox;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+
+} */
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Hidden dropdown message */
+.dropdown-message {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #f08eb0;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px; /* Adjust based on your content */
+    text-align: center;
+}
+
+/* Show the dropdown message on hover */
+.hover-container:hover .dropdown-message {
+    display: block;
+    color: #000000;
+    font-family: cursive;
+    font-size: 1vw;
+
+}
+
+.title{
+    display:flex;
+}
+
+section {
+    padding: 16px;
+    margin: 15px;
+}
+
+#home{
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30vw;
+}
+
+
+#home p{
+    color: darkgreen;
+}
+
+.img{
+    height: 12px;
+    width: 12px;
+    margin-left: 3.8vw;
+}
+
+.img img{
+    float: right;
+    height: 8vw;
+    width: 8vw;
+    margin-top: 5vw;
+    margin-right: 1vw;
+    
+
+}
+button{
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+    margin-left: 600px;
+    margin-top: 50px;
+    height: 55px;
+    width: 150px;
+    font-size: 1.3vw;
+    background-color: rgb(252, 96, 143);
+    color: #000000;
+}
+
+
+button:hover{
+    background-color: #f83580;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

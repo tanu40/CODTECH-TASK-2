@@ -1,0 +1,167 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: white;
+    font-family: cursive;
+    padding: 2px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    display: flex;
+}
+
+.logo h1 {
+    font-size: 2vw;
+    font-family: cursive;
+    margin-left: 4vw;
+}
+.logo-img{
+    height: 10px;
+    margin-bottom: 6.5vw;
+    margin-top: 0.7vw;
+    width: 10px;
+    margin-right: 68vw;
+}
+
+.logo-img img{
+    float: right;
+    display: flex;
+    height: 8vw;
+    width: 8vw;
+
+}
+
+
+
+.login-btn, .signup-btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn {
+    background-color: #0056b3;
+    font-family: cursive;
+}
+
+.signup-btn {
+    background-color: #28a745;
+    font-family: cursive;
+}
+
+.login-btn:hover {
+    background-color: #004494;
+}
+
+.signup-btn:hover {
+    background-color: #218838;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #b4dbf1;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3vw;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 2vw;
+    color: #28a745;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #f36897;
+    color: rgb(0, 0, 0);
+    padding: 1vw 3vw;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-family: cursive;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #fa1876;
+}
+
+/* Features Section Styles */
+.features {
+    padding: 5vw 0;
+    background-color: white;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.feature-item i {
+    font-size: 48px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.feature-item h4 {
+    font-size: 35px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+}

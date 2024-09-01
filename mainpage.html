@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo_img.png">
+            </div>
+            <ul class="nav-links">
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><img src="img/profile.png"><a href="#">Profile</a></li>
+                <li><img src="img/message.png"><a onclick="toggleDropdown()" class="dropbtn" href="#">Messages</a>
+                    <div id="myDropdown" class="dropdown-content">
+                    <p href="#">2+ messages from @user_gbygjhgc
+                        <a>Sent just now</a>
+                    </p>
+                    <p href="#">4+ messages from @xyzuser
+                        <a>Sent 12 hrs ago</a>
+                    </p>
+                    <p href="#">1 new message from @user96
+                    </p>
+                </div></li>
+                <li><img src="img/noti.png"><a onclick="toggleDropdown()" class="dropbtn" href="#">Notifications</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <p href="#">User-abc liked your post
+                            <a>Sent just now</a>
+                        </p>
+                        <p href="#">User-xyz started following you
+                            <a>Sent 12 hrs ago</a>
+                        </p>
+                        <p href="#">new_user liked your post
+                        </p>
+                    </div>
+                    </div>
+                </li>
+                <li><img src="img/logout.png"><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Sidebar for additional navigation -->
+        <aside class="sidebar">
+            <ul>
+                <li><img src="img/friends.png"><a href="#">Friends</a></li>
+                <li><img src="img/group.png"><a href="#">Groups</a></li>
+                <li><img src="img/events.png"><a href="#">Events</a></li>
+                <li><img src="img/settings.png"><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main content area -->
+        <main class="content">
+            <!-- Post creation box -->
+            <div class="post-box">
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button onclick="postStatus()">Post</button>
+            </div>
+
+            <!-- Feed where posts will be displayed -->
+            <div id="feed">
+                <!-- Example post -->
+                <div class="post">
+                    <p>Hello, this is an example post!</p>
+                    <small>Posted just now</small>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SocialApp. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script src="mainpage.js"></script>
+</body>
+</html>
